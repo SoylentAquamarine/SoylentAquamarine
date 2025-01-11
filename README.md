@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning ... Cybersecurity at WGU
 - 💞️ I’m looking to collaborate on ... stuff
 - 📫 How to reach me ... Mind Control
-- 😄 Pronouns: ... get paid more than SemiPro Nouns
+- 😄 Pronouns: ... get paid more than SemiPronouns
 - ⚡ Fun fact: ... Garlic makes my feet stink
 
 <!---
