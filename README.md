@@ -1,4 +1,4 @@
-# Hi, I'm Stephen (SoylentAquamarine) 👋
+# Hi, I'm Steve (SoylentAquamarine) 👋
 
 I'm an ops professional who tinkers with code. Here are my projects:
 
