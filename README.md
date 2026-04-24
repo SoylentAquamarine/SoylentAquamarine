@@ -1,29 +1,10 @@
 # Hi, I'm Steve (SoylentAquamarine) 👋
+Wow, I finally started using Git.  Pretty fun!
 
-I'm an ops professional who tinkers with code. Here are my projects:
+I made the javascript guitaar back when I first started learning HTMP and scripting, I just finished having AI optimize it ... that was fun, and Claude freaking rules!!
 
----
+I keep running out of Claude tokens, so I have an AI offloader called the-brain, project pinned below.  It is not working perfectly, but it does outsource some of the overhead to free AI instead of having Claude do everything.
 
-## 🎸 [Javascript Guitar](https://github.com/SoylentAquamarine/javascriptguitar)
-A guitar fretboard visualizer originally built in the late 1990s using JavaScript image-swapping.
-- **Original** — preserved 90s code, running in modern browsers
-- **Optimized** — AI-modernized version with HTML5 and clean JS
+ClamBakeSanta is running, waiting on a few additions ... a haiku writing automated GitHub process that writes and distributes poetry, asically an example of tying everything together in one GitHub project, see the pin below.
 
-🌐 **[Live Site](https://soylentaquamarine.github.io/javascriptguitar/)**
-
----
-
-## 🦪 [ClamBakeSanta](https://github.com/SoylentAquamarine/ClamBakeSanta)
-A fully automated daily haiku generator — and a demonstration of a reusable, plugin-based automation framework built on 100% free infrastructure.
-
-Every morning, GitHub Actions wakes up, checks today's holidays and birthdays from curated data files, calls a free AI model to write fresh haikus, and publishes the results to a static site and RSS feed. Zero human intervention. Zero cost.
-
-- **Framework** — modular plugin architecture: swappable AI engines, output channels, and input sources
-- **Safety layer** — curated data files mean you control every subject the AI writes about
-- **Free stack** — GitHub Actions + GitHub Models + GitHub Pages + Mastodon API
-
-🌐 **[Live Site](https://soylentaquamarine.github.io/ClamBakeSanta/)** &nbsp;·&nbsp; 📡 **[RSS Feed](https://soylentaquamarine.github.io/ClamBakeSanta/feed.xml)**
-
----
-
-*More projects on the way.*
+ManyAI and ManyAI desktop are extensions of the AI offloading I used to write an Android and and a Windows app, both of them are just AI interfaces with functionality, the Windows app has workflows enabled and is pretty functional for what I need.  Pins below.
