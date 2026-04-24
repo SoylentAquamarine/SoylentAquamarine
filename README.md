@@ -1,7 +1,7 @@
 # Hi, I'm Steve (SoylentAquamarine) 👋
 Wow, I finally started using Git.  Pretty fun!
 
-I made the javascript guitaar back when I first started learning HTMP and scripting, I just finished having AI optimize it ... that was fun, and Claude freaking rules!!
+I made the javascript guitar back when I first started learning HTML and scripting, I just finished having AI optimize it ... that was fun, and Claude freaking rules!!
 
 I keep running out of Claude tokens, so I have an AI offloader called the-brain, project pinned below.  It is not working perfectly, but it does outsource some of the overhead to free AI instead of having Claude do everything.
 
