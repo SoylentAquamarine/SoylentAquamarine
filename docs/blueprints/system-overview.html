@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Overview — SoylentAquamarine</title>
+  <style>
+    :root {
+      --bg: #0f1117; --surface: #1a1d27; --border: #2a2d3a;
+      --accent: #4ecdc4; --text: #e2e8f0; --muted: #8892a4;
+      --code-bg: #090c13; --th-bg: #141720;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.6rem 2rem; font-size: 0.82rem; color: var(--muted); }
+    .topbar a { color: var(--muted); }
+    .topbar a:hover { color: var(--accent); }
+    .topbar span { margin: 0 0.4rem; }
+
+    header { padding: 2.5rem 2rem 2rem; border-bottom: 1px solid var(--border); }
+    header h1 { font-size: 1.9rem; font-weight: 700; color: var(--accent); }
+    header p.meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.4rem; }
+
+    main { max-width: 860px; margin: 0 auto; padding: 2rem; }
+
+    h2 { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+    h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin: 1.5rem 0 0.6rem; }
+    p { margin-bottom: 0.85rem; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    ul { margin: 0.5rem 0 0.85rem 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 0.8rem 0 1rem; font-size: 0.88rem; }
+    th { background: var(--th-bg); color: var(--accent); padding: 0.55rem 1rem; text-align: left; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid var(--border); }
+    td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--border); }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #1e2130; }
+
+    code { font-family: 'Courier New', Consolas, monospace; font-size: 0.85em; background: var(--code-bg); border: 1px solid var(--border); padding: 0.1rem 0.35rem; border-radius: 3px; color: var(--accent); }
+    pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; overflow-x: auto; margin: 0.8rem 0 1rem; }
+    pre code { background: none; border: none; padding: 0; font-size: 0.87rem; color: #c3cfe8; }
+
+    footer { margin-top: 4rem; padding: 1.5rem 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.82rem; text-align: center; }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="../index.html">SoylentAquamarine</a>
+  <span>/</span>
+  <a href="../index.html">Docs</a>
+  <span>/</span>
+  System Overview
+</div>
+
+<header>
+  <h1>System Overview — SoylentAquamarine GitHub Profile</h1>
+  <p class="meta">Blueprint · Last updated 2026-05-02</p>
+</header>
+
+<main>
+
+  <h2>Purpose</h2>
+  <p>The <code>SoylentAquamarine</code> repository is a GitHub profile README — a special repository that GitHub renders as the public-facing profile page at <code>github.com/SoylentAquamarine</code>. It serves as a project index and personal introduction for Stephen Pleasants, an ops professional who tinkers with code.</p>
+
+  <h2>Tech Stack</h2>
+  <table>
+    <tr><th>Component</th><th>Details</th></tr>
+    <tr><td>Single file</td><td><code>README.md</code></td></tr>
+    <tr><td>Rendering</td><td>GitHub's built-in Markdown renderer (CommonMark + GitHub extensions)</td></tr>
+    <tr><td>Deployment</td><td>Automatic — GitHub renders on every push, no build step</td></tr>
+    <tr><td>Dependencies</td><td>None</td></tr>
+  </table>
+
+  <h2>Content Structure</h2>
+  <table>
+    <tr><th>Section</th><th>Contents</th></tr>
+    <tr><td>Header</td><td>Personal intro ("ops professional who tinkers with code")</td></tr>
+    <tr><td>Javascript Guitar</td><td>Link to repo + description + live site link</td></tr>
+    <tr><td>ClamBakeSanta</td><td>Link to repo + description + live site link + RSS link</td></tr>
+    <tr><td>Footer</td><td>"More projects on the way."</td></tr>
+  </table>
+
+  <h2>Project Listings (Current)</h2>
+  <ul>
+    <li><strong>Javascript Guitar</strong> — Guitar fretboard visualizer, originally built in the 1990s. Live at GitHub Pages.</li>
+    <li><strong>ClamBakeSanta</strong> — Daily haiku bot. Demonstrates plugin-based automation on 100% free infrastructure. Live site + RSS feed.</li>
+  </ul>
+
+  <h2>Deployment</h2>
+  <p>GitHub automatically detects a repository with the same name as the account username (<code>SoylentAquamarine/SoylentAquamarine</code>) and renders its <code>README.md</code> as the profile page. No CI/CD, no build system, no configuration required.</p>
+
+  <h2>Maintenance</h2>
+  <ul>
+    <li>Add a new project entry when a new public repo launches.</li>
+    <li>Keep live site links current — GitHub Pages URLs can change if repos are renamed.</li>
+    <li>Update descriptions if project scope changes significantly.</li>
+    <li>The projects table in the parent <code>CLAUDE.md</code> (<code>C:\Claude\git\CLAUDE.md</code>) should stay in sync with this file.</li>
+  </ul>
+
+</main>
+
+<footer>Blueprint · SoylentAquamarine · <a href="../index.html">← Back to docs</a></footer>
+
+</body>
+</html>
